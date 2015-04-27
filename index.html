@@ -7,17 +7,43 @@
         <link rel="stylesheet" href="assets/css/index.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="#">Contact us</a></li>
+                <li id="contact"><a href="#">Contact us</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Home</a></li>
             </ul>
         </nav>
 
+        <div id="modal-container">
+            <div id="modal-overlay"></div>
+                <div id="modal-box">
+                    <!-- Q2: Your Content for Modal Box Here -->
+                    <div id="modal-header">Contact us</div>
+                    <div class="horizontal-rule"></div>
+                    <div id="modal-content">
+                        <div id="modal-content-piece">
+                            <h2> By Email: </h2>
+                            btbcorporation@outlook.com
+                        </div>
+                        <div id="modal-content-piece">
+                            <h2> By Phone: </h2>
+                            (408) 476-6051
+                        </div>
+                        <div id="modal-content-piece">
+                            <h2> Some details: </h2>
+                            When you contact us, be sure to have information regarding the make/model of your laptop, computer, or external hard drive as well as the storage capacity of the device.
+                        </div>
+                    </div>
+                    <div id="modal-footer">
+                        <div id="close" class="button">Close</div>
+                    </div>
+                </div>
+        </div>
         <!-- Jumbotron -->
         <div id="jumbotron">
             <div id="jumbotron-welcome">
