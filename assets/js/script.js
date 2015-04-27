@@ -29,3 +29,6 @@ $(document).ready(function(){
     
     
 });
+
+// The 6 functions I used:
+// click(), fadeIn(), fadeOut(), addClass(), removeClass(), scrollTop()
