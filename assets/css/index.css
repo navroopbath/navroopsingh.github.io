@@ -145,6 +145,51 @@ nav ul li:hover a {
     line-height: 1.5;
 }
 
+
+#faq {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.faq-title {
+    font-size: 45px;
+    margin: 0 auto;
+    width: 30%;
+    color: white;
+}
+
+#faq .snippet {
+    float: left;
+    font-weight: 700;
+    font-size: 30px;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+#faq .snippet-title {
+    font-weight: 700;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+}
+
+#faq .snippet-text {
+    padding-top: 20px;
+    color: white;
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+    line-height: 1.5;
+}
+
 #mission {
     width: 97%;
     background-color: #f7f7f7;

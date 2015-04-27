@@ -27,7 +27,11 @@ $(document).ready(function(){
         }, 800);
     });
     
-    
+    $('#faq-link').click(function() {
+        $('html, body').animate({
+            scrollTop: $('#faq').offset().top
+        }, 800);
+    });
 });
 
 // The 6 functions I used:
