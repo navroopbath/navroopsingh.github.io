@@ -90,13 +90,12 @@ nav ul li:hover a {
 #about-us {
     padding: 20px 20px 20px 20px;
     width: 100%;
-    height: 500px;
     overflow: hidden;
 }
 
 
-#about-us-title {
-    font-size: 40px;
+.about-us-title {
+    font-size: 45px;
     margin: 0 auto;
     width: 40%
 }
@@ -108,5 +107,60 @@ nav ul li:hover a {
 
 .snippet {
     width: 30%;
+    float: left;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
 }
 
+.snippet-title {
+    font-weight: 700;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.snippet-pic {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.snippet-pic img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.snippet-text {
+    margin: 0 auto;
+    text-align:center;
+    width: 70%;
+    line-height: 1.5;
+}
+
+#mission {
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 450px;
+}
+
+#mission-pic {
+    width: 40%;
+    float: left;
+}
+
+#mission-pic img{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#mission-statement {
+    float: left;
+    width: 40%;
+    line-height: 1.5;
+}
