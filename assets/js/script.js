@@ -6,16 +6,26 @@ $(document).ready(function(){
 	});
 
     $('#close').click(function() {
-		$('#modal-container').hide();
+		$('#modal-container').fadeOut();
         $('nav').removeClass('hide-nav');
 	});
 	
 	$('#modal-overlay').click(function () {
-		$('#modal-container').hide();
+		$('#modal-container').fadeOut();
         $('nav').removeClass('hide-nav');
 	});
     
-    $('li').hover(function() {
-        $(this).addClass('.hover');
+    $('#home').click(function() {
+        $('html, body').animate({
+            scrollTop: $('.nav-container').offset().top
+        }, 800);    
     });
+    
+    $('#about').click(function() {
+        $('html, body').animate({
+            scrollTop: $('#about-us').offset().top
+        }, 800);
+    });
+    
+    
 });
