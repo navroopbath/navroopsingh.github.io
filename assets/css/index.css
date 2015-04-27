@@ -24,6 +24,9 @@ nav {
  margin: 0px;
  overflow: hidden;
  width: 100%;
+ z-index: 100;
+    position: fixed;
+    top: 0px;
 }
 
 nav ul {
@@ -227,4 +230,14 @@ nav ul li:hover a {
 
 .horizontal-rule {
     border-top: 2px solid white;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0px;
+}
+
+.hide-nav {
+    background-color: black;
+    color: white;
 }
